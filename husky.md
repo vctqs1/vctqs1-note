@@ -30,8 +30,9 @@ pre-commit
 ...
 ```
 
-3. The problem, easily encountered, when using both Githook and Husky together
-Something, husky doesnot work well, it donot recorgize your hook to trigger your script
+2. The problem, easily encountered, when using both Githook and Husky together
+
+Sometime, husky doesnot work well, it donot recorgize your hook to trigger your script
 
 
 Check your file `.git/config`. please notice about this variable `hooksPath = true`![image](https://user-images.githubusercontent.com/30227910/133891550-f40b42b9-353c-473f-8cf0-353af9500193.png)
