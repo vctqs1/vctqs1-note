@@ -5,6 +5,7 @@ When you're trying to using githook and husky, having some different between ver
 1. How to add Husky into your repo, where we should put it in.
 
 - Version <5
+
 Add into `package.json` something like
 ```json
 "husky": {
@@ -13,7 +14,8 @@ Add into `package.json` something like
     }
 },
 ```
-- Verion >=5 
+- Verion >=5
+
 Run this script `npx husky add .husky/pre-commit 'yarn lint'` to create `pre-commit` hook
 And got file `.husky/pre-commit`
 
